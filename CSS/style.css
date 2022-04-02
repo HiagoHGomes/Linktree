@@ -20,9 +20,11 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: -5px;
+    text-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .message {
+    text-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
     width: 160px;
     animation: digitando 3s steps(25), blink .4s infinite alternate;
     white-space: nowrap;
@@ -60,10 +62,11 @@ section a{
 }
 
 section p:hover {
-    background-color: #121212;
+    background-color: #4d4d4d;
     color: white;
 }
 
 footer {
     text-align: center;
+    text-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.2);
 }
